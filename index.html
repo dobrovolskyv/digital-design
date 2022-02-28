@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Веб Технология</title>
+</head>
+
+<body>
+    <!-- <div>Необходимо разработать веб страницу с использованием HTML5, которая содержит введение и обзор веб-технологии
+        (любой).
+        Страница должна содержать:
+        · Внешние ссылки на соответствующие сайты;
+        · Сопутствующие изображения (включая подписи);
+        · Заголовки, абзацы, и другие семантические тэги;
+        · Оглавление раздела в начале страницы;
+        · Упорядоченные и неупорядоченные списки везде, где это возможно;
+        · Кнопку для возврата в начало страницы.</div>
+
+    
+            -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="" class="header__link"><img src="./img/logo.svg" alt="" class="header__img"></a>
+                <ul class="header__list">
+                    <li class="header__item"><a href="https://angular.io" class="header__link"
+                            target="_blank">Angular</a></li>
+                    <li class="header__item"><a href="https://vuejs.org" class="header__link" target="_blank">Vue</a>
+                    </li>
+                    <li class="header__item"><a href="https://ru.reactjs.org" class="header__link"
+                            target="_blank">React</a></li>
+                    <li class="header__item"><a href="https://github.com/dobrovolskyv" class="header__link"
+                            target="_blank">Добровослький
+                            Владислав</a></li>
+                </ul>
+            </nav>
+            <h1 class="header__title">Веб-Технологии</h1>
+            <p class="header__subtitle">- это технологии формирования и поддержки разных информационный ресурсов в сети
+                интернета. Цель этого поста – познакомить Вас с основами HTML, CSS и одного из самых распространенных
+                языков
+                программирования -
+                JavaScript.
+            </p>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="web">
+            <div class="container">
+                <h2 class="title web__title">Как строятся веб-страницы</h2>
+                <div class="web__inner">
+                    <ol class="web__list">
+                        <li class="web__item">Для отражения содержимого на веб-страницы существует язык разметки
+                            <a class="web__link"
+                                href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiom92_9J32AhXSA3sKHZ_VC8AYABAAGgJsZQ&ae=2&ohost=www.google.com&cid=CAESWuD2ar1hueKY9DHyyLVP7BCehj5eE8LheEemCSTlSpJYOvQYdOALo_Wb7PbeMAL9e7DpaV7_Pm_E8AzqxbTZ1zEQYwAPopT9wReRtVav8rzIIQr07c1RHdDpWw&sig=AOD64_0N5MOsycL3NSbml71Lfxgj4LMLAA&q&adurl&ved=2ahUKEwiO1dO_9J32AhWnlIsKHcq2DWUQ0Qx6BAgDEAE&dct=1"
+                                target="_blank">HTML</a>
+                            , а для cтилизации элементов служат каскадные
+                            таблицы стилей, иначе <a class="web__link" href="https://www.w3schools.com/css/"
+                                target="_blank">CSS</a>.
+                        </li>
+                        <li class="web__item"> В создании динамических страниц, на помощь разработчикам «приходят»
+                            языки скриптов. Самый
+                            популярный
+                            язык
+                            <a class="web__link" href="https://learn.javascript.ru" target="_blank">JavaScript</a>.
+                        </li>
+                        <li class="web__item"> В принципе, с помощью этих трех языков HTML, CSS, JavaScript можно
+                            создать любую, даже самую
+                            сложную,
+                            веб–страницу, а созданные веб-страницы собрать в веб-сайт.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <div class="frontend">
+            <div class="container">
+                <div class="frontend__inner">
+                    <img class="frontend__img" src="./img/frontend.jpg" alt="frontend">
+                    <p class="frontend__text"><span class="span frontend__span">Frontend-разработчик </span>— это
+                        специалист,
+                        который отвечает за создание
+                        пользовательского интерфейса
+                        сайта, приложения или ПО.По мере усложнения функционала сайтов и приложений все большая часть
+                        разметки страниц и их
+                        содержимого генерируется
+                        динамически, то есть создается с помощью JavaScript, и наполняется данными, полученными с
+                        сервера. Эти задачи можно
+                        продолжить решать на чистом JavaScript или использовать библиотеки, но такой сайт будет
+                        недостаточно быстрым, а его
+                        разработчики скоро начнут стонать из-за возрастания объемов кода и непомерного усложнения его
+                        структуры.
+
+                        Для создания большого и сложного веб-приложения требуются более узкие специалисты и мощные
+                        инструменты. На таком проекте
+                        задачи верстальщика и frontend-разработчика разделяются. Фронтендер занимается исключительно
+                        программированием, причем с
+                        использованием фреймворка, подходящего для решения поставленной задачи.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <section class="frameworks">
+            <div class="container">
+                <h2 class="title frameworks__title">Фреймворки</h2>
+                <div class="frameworks__inner">
+                    <div class="frameworks__img">
+                        <img src="./img/frameworks.png" alt="frameworks">
+                    </div>
+                    <div class="frameworks__text">
+                        <p><span class="span">Фреймворк</span> — каркас приложения, который состоит из набора
+                            библиотек.Вместе они дают возможность пользователю выстроить свою функциональность на
+                            некотором
+                            фундаменте. Фреймворк задаёт
+                            структуру и подход к архитектуре вашего приложения, он диктует, как вы должны писать
+                            код.Например:
+                        </p>
+                        <ol class="frameworks__list">
+                            <li class="frameworks__item">Angular — фреймворк для создания SPA, включает в себя
+                                инструменты для разработки и
+                                тестирования, реализует архитектуры
+                                MVC и MVVM, имеет открытый исходный код.</li>
+                            <li class="frameworks__item">Vue.js — также фреймворк для создания SPA, реализует шаблон
+                                MVVM, имеет открытый исходный
+                                код.</li>
+                            <li class="frameworks__item">ReactJS - это JavaScript-библиотека для создания
+                                пользовательских интерфейсов и создания
+                                SPA. Имеет огромное комьюнити.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="date">
+            <div class="container">
+                <div id="d"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a class="footer__link" href="#header">Вернутсья в начало</a>
+        </div>
+    </footer>
+    <script src="./main.js" defer></script>
+</body>
+
+</html>
